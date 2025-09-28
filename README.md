@@ -3,9 +3,8 @@ HC-2025-26 – Design Pattern Coding Exercises
 This repository contains my submission for the HC-2025-26 Coding Exercises.
 It demonstrates behavioural, creational, and structural design patterns, SOLID principles, and clean OOP design in Java.
 
-design-patterns-exercises/
-│
-├─ Exercise1/
+ EI/
+├─ DesignPattern/
 │   ├─ Behavioural/
 │   │   ├─ Observer/
 │   │   └─ Strategy/
@@ -16,7 +15,7 @@ design-patterns-exercises/
 │       ├─ Adapter/
 │       └─ Decorator/
 │
-└─ Exercise2/
+└─ SmartHomeSystem/
     └─ SmartHomeSystem/
 
 Exercise 1 – Design Pattern Demonstrations
@@ -24,12 +23,12 @@ Exercise 1 – Design Pattern Demonstrations
 Six small console-based Java projects:
 
 Pattern Type	Folder	What it Shows
-Behavioural	observer	News Agency example (Observer Pattern).
-Behavioural	strategy	Shipping cost calculation using Strategy Pattern.
-Creational	factory	Document creation using Factory Method Pattern.
-Creational	singleton_builder	Singleton + Builder pattern for AppConfig management.
-Structural	adapter	Media player adapter wrapping incompatible classes.
-Structural	decorator	Dynamic text decorations using Decorator Pattern.
+Behavioural	Observer	News Agency example (Observer Pattern).
+Behavioural	Strategy	Shipping cost calculation using Strategy Pattern.
+Creational	Factory	Document creation using Factory Method Pattern.
+Creational	Singleton_Builder	Singleton + Builder pattern for AppConfig management.
+Structural	Adapter	Media player adapter wrapping incompatible classes.
+Structural	Decorator	Dynamic text decorations using Decorator Pattern.
 
 Each folder contains its own *Demo.java file to run and see output.
 
@@ -66,18 +65,18 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/Design_Pattern.git
-cd Design_Pattern
+git clone https://github.com/HariniShriJ/EI.git
+cd EI
 
 
-Compile Exercise 1 or Exercise 2 Java files separately.
+Compile DesignPrinciple or SmartHomeSystem Java files separately.
 
 Example for Smart Home System:
 
-javac design-patterns-exercises/Exercise2/SmartHomeSystem/devices/*.java \
-      design-patterns-exercises/Exercise2/SmartHomeSystem/hub/*.java \
-      design-patterns-exercises/Exercise2/SmartHomeSystem/proxy/*.java \
-      design-patterns-exercises/Exercise2/SmartHomeSystem/main/*.java
+javac EI/SmartHomeSystem/Devices/*.java \
+      EI/SmartHomeSystem/Hub/*.java \
+      EI/SmartHomeSystem/Proxy/*.java \
+      EI/SmartHomeSystem/main/*.java
 
 
 Run the main demo:
