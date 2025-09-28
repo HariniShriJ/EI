@@ -9,12 +9,12 @@ This project demonstrates:
 - **Proxy Pattern** — Controlled access to devices.
 
 ## Project Structure
-- `devices/` - Device classes & factory
-- `hub/` - Central hub, scheduler, triggers
-- `proxy/` - Proxy for device access control
+- `Devices/` - Device classes & factory
+- `Hub/` - Central hub, scheduler, triggers
+- `Proxy/` - Proxy for device access control
 - `main/` - Entry point `SmartHomeDemo.java`
 
 ## How to Run
 1. Compile all Java files:
    ```bash
-   javac devices/*.java hub/*.java proxy/*.java main/*.java
+   javac Devices/*.java Hub/*.java Proxy/*.java main/*.java
