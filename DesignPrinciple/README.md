@@ -20,8 +20,8 @@ Decorator/ -- Text decorations (Decorator Pattern)
 
 Clone the repository:
 
-git clone https://github.com/your-username/DesignPatternsExercise1.git
-cd Exercise1
+git clone https://github.com/HariniShriJ/EI.git
+cd DesignPatterns
 
 
 Compile and run any demo from its folder. Example (Observer Pattern):
